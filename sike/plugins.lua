@@ -10,7 +10,7 @@ local plugins = {
 
   {
     "andweeb/presence.nvim",
-    event = "InsertEnter",
+    cmd = "Presence",
   },
 
   { "m4xshen/autoclose.nvim", event = "InsertEnter" },
@@ -125,6 +125,7 @@ local plugins = {
       require("better_escape").setup()
     end,
   },
+  {"github/copilot.vim",event="InsertEnter"},
 
   -- To make a plugin not be loaded
   -- {
